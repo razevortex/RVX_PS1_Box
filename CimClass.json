@@ -249,6 +249,43 @@
                                                  "ProductName"
                                              ]
                           },
+    "Win32_USBHub":  {
+                         "Methods":  [
+                                         "SetPowerState",
+                                         "Reset",
+                                         "GetDescriptor"
+                                     ],
+                         "Properties":  [
+                                            "Caption",
+                                            "Description",
+                                            "InstallDate",
+                                            "Name",
+                                            "Status",
+                                            "Availability",
+                                            "ConfigManagerErrorCode",
+                                            "ConfigManagerUserConfig",
+                                            "CreationClassName",
+                                            "DeviceID",
+                                            "ErrorCleared",
+                                            "ErrorDescription",
+                                            "LastErrorCode",
+                                            "PNPDeviceID",
+                                            "PowerManagementCapabilities",
+                                            "PowerManagementSupported",
+                                            "StatusInfo",
+                                            "SystemCreationClassName",
+                                            "SystemName",
+                                            "ClassCode",
+                                            "CurrentAlternateSettings",
+                                            "CurrentConfigValue",
+                                            "NumberOfConfigs",
+                                            "ProtocolCode",
+                                            "SubclassCode",
+                                            "USBVersion",
+                                            "GangSwitched",
+                                            "NumberOfPorts"
+                                        ]
+                     },
     "Win32_Battery":  {
                           "Methods":  [
                                           "SetPowerState",
@@ -328,6 +365,37 @@
                                           "SystemBiosMinorVersion"
                                       ]
                    },
+    "Win32_USBController":  {
+                                "Methods":  [
+                                                "SetPowerState",
+                                                "Reset"
+                                            ],
+                                "Properties":  [
+                                                   "Caption",
+                                                   "Description",
+                                                   "InstallDate",
+                                                   "Name",
+                                                   "Status",
+                                                   "Availability",
+                                                   "ConfigManagerErrorCode",
+                                                   "ConfigManagerUserConfig",
+                                                   "CreationClassName",
+                                                   "DeviceID",
+                                                   "ErrorCleared",
+                                                   "ErrorDescription",
+                                                   "LastErrorCode",
+                                                   "PNPDeviceID",
+                                                   "PowerManagementCapabilities",
+                                                   "PowerManagementSupported",
+                                                   "StatusInfo",
+                                                   "SystemCreationClassName",
+                                                   "SystemName",
+                                                   "MaxNumberControlled",
+                                                   "ProtocolSupported",
+                                                   "TimeOfLastReset",
+                                                   "Manufacturer"
+                                               ]
+                            },
     "Win32_OperatingSystem":  {
                                   "Methods":  [
                                                   "Reboot",
